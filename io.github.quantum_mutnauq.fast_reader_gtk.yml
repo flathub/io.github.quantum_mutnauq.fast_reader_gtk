@@ -15,6 +15,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/hyperrealm/libconfig.git
+        commit: a42cb47c1526a4f2ed025fcbb2289863375bc898
         tag: v1.8.2
       - type: shell
         commands:
@@ -31,4 +32,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/Quantum-mutnauQ/Fast_Reader_GTK.git
+        commit: 84dc22b1eead2924befc5b5451cdf1b2aeac47a5
         tag: v8.0
