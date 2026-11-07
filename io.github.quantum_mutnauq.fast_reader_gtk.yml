@@ -1,6 +1,6 @@
 app-id: io.github.quantum_mutnauq.fast_reader_gtk
 runtime: org.gnome.Platform
-runtime-version: "50"
+runtime-version: "51"
 sdk: org.gnome.Sdk
 command: fast-reader
 finish-args:
@@ -15,8 +15,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/hyperrealm/libconfig.git
-        commit: a42cb47c1526a4f2ed025fcbb2289863375bc898
-        tag: v1.8.2
+        commit: a211339ea575bb1253e3e24eee47089249f6bda1
+        tag: v1.8.3
       - type: shell
         commands:
           - autoreconf -i
